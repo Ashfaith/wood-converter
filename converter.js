@@ -8,9 +8,9 @@ let volume;
 
 function volumeCalc() {
     const priceVal = Number(price.value);
-    const lengthVal = Number(length.value) * 0.0001;
+    const lengthVal = Number(length.value) * 0.001;
     console.log(lengthVal);
-    const widthVal = Number(width.value) * 0.0001;
+    const widthVal = Number(width.value) * 0.001;
 
 
 
